@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;  
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+
+header {
+  display: flex;
+  background-color: black;
+  min-height: 10vh;
+  justify-content: center;
+  align-items:center;
+  border: 2px solid white;
+  margin: 2px;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  background-color: black;
+  min-height:  85vh;
+  max-height: 90vh;
+
+  display: flex;
+}
+
+.content-outer {
+  flex: 1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  margin: 2px;
+
+}
+
+.content-outer-web {
+  flex: 1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  margin: 2px;
+  flex-direction: column;
+
+}
+
+.content-inner {
+  flex:1;
+  background-color: white;
+
+  height: 50%;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid white;
+  margin: 2px;
+
+  flex-direction: column-reverse;
+}
+
+.content-inner-row {
+  flex:1;
+  background-color: white;
+
+  height: 50%;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid white;
+  margin: 2px;
+
+}
+
+
+.content-inner img { 
+  max-width: 200px;
+  max-height: 200px;
+
+  width: auto;
+  height: auto;
+
+  display: block;
+  margin: auto;
+
+}
+
+.content-inner-row img { 
+  max-width: 200px;
+  max-height: 200px;
+
+  width: auto;
+  height: auto;
+
+  display: block;
+  margin: auto;
+
+}
+
+.text-and-img-container {
+  display:flex;
+  flex-direction: column;
+
+  max-height: 100%;
+  margin: 100px;
+}
+.text-and-img-container h1 {
+  color: black;
+  text-align: center;
+}
+
+
+.picture-container {
+  flex:1;  
+  height: 100%;
+  width: 100%;
+
+  margin: 10px;
+
+  border: 10px Sold white;
+}
+
+.content-inner h1 {
+  color: black;
+  text-align: center;
+}
+
+.sidebar {
+  width:100px;
+  white-space: normal;
+  
+  max-height:85vh ;
+  background-color: black;  
+  color: white;
+
+  display:flex;
+  align-items: top;
+  justify-content: center;
+
+  border: 2px solid gray;;
+  margin: 2px;
+
+  text-align: center;
+}
+
+.sidebar a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} 
+
+
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  
+}
+
+.sidebar li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
